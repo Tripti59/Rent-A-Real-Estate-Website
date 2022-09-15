@@ -1,0 +1,144 @@
+.header{
+    width: 100vw;
+    height: 65%;
+    background-image: url("bg3.jpg");
+    background-size: cover;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+.icon{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(50, 3, 160);
+}
+body{
+background-color: #cfe0e8
+}
+.logo{
+    width:80%;
+    display: inline-block; 
+}
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    background-color:rgb(50, 3, 160);
+    color: aliceblue;
+    border-radius: 1.5rem;
+    font-size: 16px;
+} 
+button:hover{
+    background-color: aliceblue;
+    color:rgb(50, 3, 160);
+}
+#searchbtn{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 2rem 1rem; 
+    border-radius: 0.75rem;
+    font-weight: 700;
+}
+.btns{
+    display: inline-block;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 56px;
+    color: rgb(255, 89, 0);
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 5rem;
+}
+h4{
+    font-family:Times, serif;
+    color:#667292;
+    text-align: center;
+    padding-bottom: 2rem;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.881);
+    height: 4px;
+}
+select{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: center;
+    margin: 2rem 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    font-size: 16px;
+}
+.allCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    border-radius: 2.5rem;
+    padding: 2rem;
+    margin: 0.5rem 1rem;
+    border: solid rgba(106, 105, 105, 0.258) 5px;
+    background-color: whitesmoke; 
+}
+img:hover{
+    opacity: 0.9;
+    border: solid 7px rgba(128, 128, 128, 0.461);
+}
+img{
+    height:325px;
+    width: 375px;
+    border-radius: 0.5rem;
+}
+.type{
+    background-color: rgb(245, 189, 189);
+    width: 115px;
+    padding: 0.25rem;
+    border-radius: 4.5rem;
+    margin: 5px 0;
+    text-align: center;
+    color: rgba(32, 32, 32, 0.811);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.country{
+    color: rgb(229, 83, 4);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.address{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+.furnishing{
+    display: inline-block;
+    margin: 0.25rem 0.5rem;
+    background-color: rgba(191, 237, 191, 0.74);
+    width: 120px;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+.bhk{
+    display: inline-block;
+    background-color: rgba(191, 237, 191, 0.74);
+    width: 70px;
+    font-weight: lighter;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.price{
+    background-color: rgba(142, 139, 139, 0.24);
+    text-align: center;
+    width: 72px;
+    margin: 0.5rem;
+    font-weight: 700;
+}
+.hide{
+    display: none;
+}
